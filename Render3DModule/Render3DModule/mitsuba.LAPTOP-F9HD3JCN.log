@@ -1,0 +1,26 @@
+2019-06-19 21:02:31 INFO  main [mtsutil.cpp:232] Mitsuba version 0.5.0 (Windows, 64 bit), Copyright (c) 2014 Wenzel Jakob
+2019-06-19 21:02:31 INFO  main [mtsutil.cpp:363] Loading utility "tonemap" ..
+2019-06-19 21:02:31 INFO  main [Tonemap] Loading image "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_1_1.exr" ..
+2019-06-19 21:02:31 INFO  main [Tonemap] Writing tonemapped image to "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_1_1.png" ..
+2019-06-19 21:02:31 INFO  main [Tonemap] Loading image "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_1_2.exr" ..
+2019-06-19 21:02:31 INFO  main [Tonemap] Writing tonemapped image to "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_1_2.png" ..
+2019-06-19 21:02:31 INFO  main [Tonemap] Loading image "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_2_1.exr" ..
+2019-06-19 21:02:31 INFO  main [Tonemap] Writing tonemapped image to "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_2_1.png" ..
+2019-06-19 21:02:31 INFO  main [Tonemap] Loading image "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_2_2.exr" ..
+2019-06-19 21:02:31 INFO  main [Tonemap] Writing tonemapped image to "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_2_2.png" ..
+2019-06-19 21:02:31 INFO  main [Tonemap] Loading image "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_3_1.exr" ..
+2019-06-19 21:02:31 INFO  main [Tonemap] Writing tonemapped image to "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_3_1.png" ..
+2019-06-19 21:02:31 INFO  main [Tonemap] Loading image "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_3_2.exr" ..
+2019-06-19 21:02:31 INFO  main [Tonemap] Writing tonemapped image to "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_3_2.png" ..
+2019-06-19 21:02:32 INFO  main [Tonemap] Loading image "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_4_1.exr" ..
+2019-06-19 21:02:32 INFO  main [Tonemap] Writing tonemapped image to "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_4_1.png" ..
+2019-06-19 21:02:32 INFO  main [Tonemap] Loading image "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_4_2.exr" ..
+2019-06-19 21:02:32 INFO  main [Tonemap] Writing tonemapped image to "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_4_2.png" ..
+2019-06-19 21:02:32 INFO  main [Tonemap] Loading image "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_5_1.exr" ..
+2019-06-19 21:02:32 INFO  main [Tonemap] Writing tonemapped image to "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_5_1.png" ..
+2019-06-19 21:02:32 INFO  main [Tonemap] Loading image "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_5_2.exr" ..
+2019-06-19 21:02:32 INFO  main [Tonemap] Writing tonemapped image to "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_5_2.png" ..
+2019-06-19 21:02:32 INFO  main [Tonemap] Loading image "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_6_1.exr" ..
+2019-06-19 21:02:32 INFO  main [Tonemap] Writing tonemapped image to "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_6_1.png" ..
+2019-06-19 21:02:32 INFO  main [Tonemap] Loading image "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_6_2.exr" ..
+2019-06-19 21:02:32 INFO  main [Tonemap] Writing tonemapped image to "D:\3D\RenderData\dst_xml\coca-cola_jo_exr\coca-cola_jo_6_2.png" ..
