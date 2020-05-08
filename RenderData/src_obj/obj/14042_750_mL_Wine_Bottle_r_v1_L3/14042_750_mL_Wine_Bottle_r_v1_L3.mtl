@@ -1,0 +1,17 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 07.03.2012 14:50:40
+
+newmtl Material__0
+	Ns 50.0000						# 指定材质的反射指数，定义了反射高光度,带权高光色则用高光系数Ns表示, 范围从0到1000
+	Ni 0.3000						# 指定材质表面的光密度，即折射值
+	d 1.0000						# 渐隐指数描述, 材质可以是透明的，即是说“溶解的”
+	Tr 0.0000						# 材质可以是透明的，即是说“溶解的”
+	Tf 1.0000 1.0000 1.0000 		# 滤光透射率
+	illum 1 						# 指定材质的光照模型;0~10范围
+	Ka 0.0000 0.0000 0.0000			# 环境反射; 材质的阴影色（ambient color）
+	Kd 1.0000 0.0000 0.0000			# 漫反射; 固有色（diffuse color）
+	Ks 0.8000 0.0000 0.0000			# 镜反射; 高光色（specular color）
+	Ke 0.0000 0.0000 0.0000
+	map_Ka 14042_750_mL_Wine_Bottle_dfinal.jpg	
+	map_Kd 14042_750_mL_Wine_Bottle_dfinal.jpg	# 为漫反射指定颜色纹理文件(.mpc)或程序纹理文件(.cxc)，或是一个位图文件
+	#map_bump 14042_750_mL_Wine_Bottle_dfinal.jpg	# 凹凸贴图

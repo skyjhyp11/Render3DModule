@@ -1,0 +1,173 @@
+===================================== manifest (before rendering) ===================================== 
+卷 Data 的文件夹 PATH 列表
+卷序列号为 0C6B-DB4A
+D:\DATA\3D\RENDER\RENDERDATA
+├─dst_xml
+│      mask_black.exr
+│      room.exr
+│      template.xml
+│      
+├─log
+│      statistics.log
+│      
+└─src_obj
+    ├─label
+    │  │  1_train.png
+    │  │  alcohol_1_whisky2.png
+    │  │  
+    │  └─备用
+    │          1_train.png
+    │          1_train_mask.png
+    │          1_train_with_mask.jpg
+    │          2_yellow_mask.jpg
+    │          2_yellow_with_mask.jpg
+    │          alcohol_1_whisky2.png
+    │          
+    └─obj
+        ├─14042_750_mL_Wine_Bottle_r_v1_L3
+        │  │  14042_750_mL_Wine_Bottle_dfinal.jpg
+        │  │  14042_750_mL_Wine_Bottle_r_v1_L3.mtl
+        │  │  14042_750_mL_Wine_Bottle_r_v1_L3_john.obj
+        │  │  
+        │  └─备用
+        │          14042_750_mL_Wine_Bottle_dfinal.jpg
+        │          
+        └─coca-cola_jo
+            │  coca-cola-zero.jpg
+            │  coca-cola.mtl
+            │  coca-cola.obj
+            │  
+            └─新建文件夹
+                    coca-cola-zero.jpg
+                    
+===================================== manifest (after rendering) ===================================== 
+卷 Data 的文件夹 PATH 列表
+卷序列号为 0C6B-DB4A
+D:\DATA\3D\RENDER\RENDERDATA
+├─dst_png
+│      14042_750_mL_Wine_Bottle_r_v1_L3_1_1.png
+│      14042_750_mL_Wine_Bottle_r_v1_L3_1_2.png
+│      14042_750_mL_Wine_Bottle_r_v1_L3_2_1.png
+│      14042_750_mL_Wine_Bottle_r_v1_L3_2_2.png
+│      14042_750_mL_Wine_Bottle_r_v1_L3_3_1.png
+│      14042_750_mL_Wine_Bottle_r_v1_L3_3_2.png
+│      14042_750_mL_Wine_Bottle_r_v1_L3_4_1.png
+│      14042_750_mL_Wine_Bottle_r_v1_L3_4_2.png
+│      14042_750_mL_Wine_Bottle_r_v1_L3_5_1.png
+│      14042_750_mL_Wine_Bottle_r_v1_L3_5_2.png
+│      14042_750_mL_Wine_Bottle_r_v1_L3_6_1.png
+│      14042_750_mL_Wine_Bottle_r_v1_L3_6_2.png
+│      coca-cola_jo_1_1.png
+│      coca-cola_jo_1_2.png
+│      coca-cola_jo_2_1.png
+│      coca-cola_jo_2_2.png
+│      coca-cola_jo_3_1.png
+│      coca-cola_jo_3_2.png
+│      coca-cola_jo_4_1.png
+│      coca-cola_jo_4_2.png
+│      coca-cola_jo_5_1.png
+│      coca-cola_jo_5_2.png
+│      coca-cola_jo_6_1.png
+│      coca-cola_jo_6_2.png
+│      
+├─dst_xml
+│  │  mask_black.exr
+│  │  room.exr
+│  │  template.xml
+│  │  
+│  ├─14042_750_mL_Wine_Bottle_r_v1_L3_exr
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_1_1.exr
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_1_2.exr
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_2_1.exr
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_2_2.exr
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_3_1.exr
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_3_2.exr
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_4_1.exr
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_4_2.exr
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_5_1.exr
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_5_2.exr
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_6_1.exr
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_6_2.exr
+│  │      
+│  ├─14042_750_mL_Wine_Bottle_r_v1_L3_texture
+│  │      1.jpg
+│  │      2.jpg
+│  │      
+│  ├─14042_750_mL_Wine_Bottle_r_v1_L3_xml
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_1.xml
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_2.xml
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_3.xml
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_4.xml
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_5.xml
+│  │      14042_750_mL_Wine_Bottle_r_v1_L3_6.xml
+│  │      
+│  ├─coca-cola_jo_exr
+│  │      coca-cola_jo_1_1.exr
+│  │      coca-cola_jo_1_2.exr
+│  │      coca-cola_jo_2_1.exr
+│  │      coca-cola_jo_2_2.exr
+│  │      coca-cola_jo_3_1.exr
+│  │      coca-cola_jo_3_2.exr
+│  │      coca-cola_jo_4_1.exr
+│  │      coca-cola_jo_4_2.exr
+│  │      coca-cola_jo_5_1.exr
+│  │      coca-cola_jo_5_2.exr
+│  │      coca-cola_jo_6_1.exr
+│  │      coca-cola_jo_6_2.exr
+│  │      
+│  ├─coca-cola_jo_texture
+│  │      1.jpg
+│  │      2.jpg
+│  │      
+│  └─coca-cola_jo_xml
+│          coca-cola_jo_1.xml
+│          coca-cola_jo_2.xml
+│          coca-cola_jo_3.xml
+│          coca-cola_jo_4.xml
+│          coca-cola_jo_5.xml
+│          coca-cola_jo_6.xml
+│          
+├─log
+│      render_3d_module.log
+│      statistics.log
+│      
+└─src_obj
+    ├─label
+    │  │  1_train.png
+    │  │  alcohol_1_whisky2.png
+    │  │  
+    │  └─备用
+    │          1_train.png
+    │          1_train_mask.png
+    │          1_train_with_mask.jpg
+    │          2_yellow_mask.jpg
+    │          2_yellow_with_mask.jpg
+    │          alcohol_1_whisky2.png
+    │          
+    └─obj
+        ├─14042_750_mL_Wine_Bottle_r_v1_L3
+        │  │  14042_750_mL_Wine_Bottle_dfinal.jpg
+        │  │  14042_750_mL_Wine_Bottle_r_v1_L3.mtl
+        │  │  14042_750_mL_Wine_Bottle_r_v1_L3_john.obj
+        │  │  
+        │  └─备用
+        │          14042_750_mL_Wine_Bottle_dfinal.jpg
+        │          
+        └─coca-cola_jo
+            │  coca-cola-zero.jpg
+            │  coca-cola.mtl
+            │  coca-cola.obj
+            │  
+            └─新建文件夹
+                    coca-cola-zero.jpg
+                    
+===========================================================================================================
+objID                           	texture_number  xml_number      total_expected  total_actual    status  
+14042_750_mL_Wine_Bottle_r_v1_L3	2               6               12              12              ok      
+coca-cola_jo                    	2               6               12              12              ok      
+===========================================================================================================
+Expected Total Png: 24
+Actual   Total Png: 24
+Rendered successfully!
+Consumption of time: 0.5071 minutes.
+===========================================================================================================

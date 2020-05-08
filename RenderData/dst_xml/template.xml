@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<scene version="0.5.0">
+    <integrator type="path">
+        <boolean name="hideEmitters" value="false" />
+    </integrator>
+    <shape type="obj">
+        <!--TO-modify-0 -->
+        <string name="filename" value="1.obj" />
+        <transform name="toWorld">
+            <!--TO-modify-0 value = 3/max(dx,dy,dz) -0.05||+0.1 -->
+            <scale value="1" />
+            <!--TO-modify-0 x/y/z-angle = (-90,90) -->
+            <rotate z="1" angle="0" />
+            <rotate x="1" angle="0" />
+            <rotate y="1" angle="0" />
+            <!--TO-modify-0 such as z axis = 0-(dz_max-dz_min)/2 -->
+            <translate x="0" y="0" z="0" />
+
+			<!-- x: (-30,30) -->
+			<!-- z: (0, 360) -->
+			<!-- y: (-30,30) -->
+            <rotate z="1" angle="0" />
+            <rotate x="1" angle="0" />
+            <rotate y="1" angle="0" />
+        </transform>
+
+    </shape>
+    <sensor type="perspective">
+        <float name="fov" value="45" />
+        <transform name="toWorld">
+            <lookat origin="0 0 -4" target="0 0 0" up="0 1 0" />
+        </transform>
+        <sampler type="ldsampler">
+            <integer name="sampleCount" value="1" />
+        </sampler>
+        <film type="hdrfilm">
+            <boolean name="banner" value="false" />
+            <integer name="height" value="512" />
+            <integer name="width" value="512" />
+            <rfilter type="gaussian" />
+        </film>
+    </sensor>
+    <emitter type="envmap" id="room_background">
+        <string name="filename" value="..\room.exr" />
+        <!--TO-modify-0 (0.5, 1.5)-->
+        <float name="scale" value="1" />
+    </emitter>
+    <emitter type="point">
+        <spectrum name="intensity" value="32" />
+		<!-- position-x=(-2,2) step = 2 -->
+        <point name="position" x="-2" y="2" z="-4" />
+    </emitter>
+</scene>
